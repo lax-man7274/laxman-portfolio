@@ -289,7 +289,7 @@ nav .logo h1 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-top: 1rem;
+  margin-top: 5rem;
   text-align: center;
 }
 .landing .intro::-moz-selection {
@@ -1046,7 +1046,7 @@ nav .logo h1 {
   color: #dfdfdf;
 }
 .currently-working .works {
-  width: 80%;
+  width: 50%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
