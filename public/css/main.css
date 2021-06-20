@@ -745,38 +745,44 @@ nav .logo h1 {
 .contact-container .social-links .links a #facebook {
   width: 5rem;
   height: 5rem;
-  -webkit-box-shadow: 0px 2px 2px 2px gray;
-          box-shadow: 0px 2px 2px 2px gray;
+  -webkit-box-shadow: 0px 1px 1px 1px #14a3a381;
+          box-shadow: 0px 1px 1px 1px #14a3a381;
+  border-radius: 5px;
 }
 .contact-container .social-links .links a #linkedin {
   width: 5rem;
   height: 5rem;
-  -webkit-box-shadow: 0px 2px 2px 2px gray;
-          box-shadow: 0px 2px 2px 2px gray;
+  -webkit-box-shadow: 0px 1px 1px 1px #14a3a381;
+          box-shadow: 0px 1px 1px 1px #14a3a381;
+  border-radius: 5px;
 }
 .contact-container .social-links .links a #google {
   width: 5rem;
   height: 5rem;
-  -webkit-box-shadow: 0px 2px 2px 2px gray;
-          box-shadow: 0px 2px 2px 2px gray;
+  -webkit-box-shadow: 0px 1px 1px 1px #14a3a381;
+          box-shadow: 0px 1px 1px 1px #14a3a381;
+  border-radius: 5px;
 }
 .contact-container .social-links .links a #clubhouse {
   width: 6rem;
   height: 5rem;
-  -webkit-box-shadow: 0px 2px 2px 2px gray;
-          box-shadow: 0px 2px 2px 2px gray;
+  -webkit-box-shadow: 0px 1px 1px 1px #14a3a381;
+          box-shadow: 0px 1px 1px 1px #14a3a381;
+  border-radius: 5px;
 }
 .contact-container .social-links .links a #github {
   width: 5rem;
   height: 5rem;
-  -webkit-box-shadow: 0px 2px 2px 2px gray;
-          box-shadow: 0px 2px 2px 2px gray;
+  -webkit-box-shadow: 0px 1px 1px 1px #14a3a381;
+          box-shadow: 0px 1px 1px 1px #14a3a381;
+  border-radius: 5px;
 }
 .contact-container .social-links .links a img {
   height: 6rem;
   width: 6rem;
-  -webkit-box-shadow: 0px 2px 2px 2px gray;
-          box-shadow: 0px 2px 2px 2px gray;
+  -webkit-box-shadow: 0px 1px 1px 1px #14a3a381;
+          box-shadow: 0px 1px 1px 1px #14a3a381;
+  border-radius: 5px;
 }
 
 .contact {
