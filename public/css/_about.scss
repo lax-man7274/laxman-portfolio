@@ -10,12 +10,6 @@
   align-items: center;
   cursor: default;
   margin: 0 auto;
-
-
-  ::selection {
-    color: none;
-    background: none;
-  }
 }
 
 .title {
@@ -23,16 +17,12 @@
   font-size: 3rem;
   margin-bottom: 1rem;
 
-
-  ::selection {
-    color: none;
-  }
-
   small {
     color: orange;
     font-size: 2rem;
     display: inline-block;
     animation-duration: 0.5s;
+    font-weight: bold;
   }
 }
 
@@ -44,16 +34,16 @@
     margin-top:1rem;
     margin-bottom: 1rem;
   }
-  legend {
+  .einstein {
     color: #31bebe;
     font-size: 2rem;
   }
 
   .quotation {
-    font-size: 3rem;
+    font-size: 4rem;
 
     span {
-      font-size: 4rem;
+      font-size: 7rem;
     }
   }
   .desc{

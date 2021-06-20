@@ -51,11 +51,6 @@
         margin-top:5rem;
         text-align: center;
 
-        &::selection{
-            color: none;
-            background:none;
-        }
-
         .greet{
             font-size: 2rem;
             font-family: 'Comfortaa', cursive;

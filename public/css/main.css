@@ -19,6 +19,10 @@ html {
 body {
   font-family: "Comfortaa", cursive;
   overflow-x: hidden;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 
 nav {
@@ -35,14 +39,6 @@ nav {
           align-items: center;
   width: 100%;
   cursor: default;
-}
-nav ::-moz-selection {
-  color: none;
-  background: none;
-}
-nav ::selection {
-  color: none;
-  background: none;
 }
 nav .logo {
   -webkit-box-flex: 1;
@@ -292,14 +288,6 @@ nav .logo h1 {
   margin-top: 5rem;
   text-align: center;
 }
-.landing .intro::-moz-selection {
-  color: none;
-  background: none;
-}
-.landing .intro::selection {
-  color: none;
-  background: none;
-}
 .landing .intro .greet {
   font-size: 2rem;
   font-family: "Comfortaa", cursive;
@@ -362,25 +350,11 @@ nav .logo h1 {
   cursor: default;
   margin: 0 auto;
 }
-.about-container ::-moz-selection {
-  color: none;
-  background: none;
-}
-.about-container ::selection {
-  color: none;
-  background: none;
-}
 
 .title {
   font-family: "Comfortaa", cursive;
   font-size: 3rem;
   margin-bottom: 1rem;
-}
-.title ::-moz-selection {
-  color: none;
-}
-.title ::selection {
-  color: none;
 }
 .title small {
   color: orange;
@@ -388,6 +362,7 @@ nav .logo h1 {
   display: inline-block;
   -webkit-animation-duration: 0.5s;
           animation-duration: 0.5s;
+  font-weight: bold;
 }
 
 .fieldset {
@@ -403,15 +378,15 @@ nav .logo h1 {
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
-.fieldset legend {
+.fieldset .einstein {
   color: #31bebe;
   font-size: 2rem;
 }
 .fieldset .quotation {
-  font-size: 3rem;
+  font-size: 4rem;
 }
 .fieldset .quotation span {
-  font-size: 4rem;
+  font-size: 7rem;
 }
 .fieldset .desc {
   font-size: 1.5rem;
@@ -577,15 +552,15 @@ nav .logo h1 {
     width: 100%;
   }
 }
-@media screen and (max-width: 700) {
+@media screen and (max-width: 700px) {
   .skills-section .skill-known {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: auto;
     grid-gap: 2rem;
     width: 100%;
     height: 80%;
     place-items: center;
+    width: 100%;
   }
 }
 .project_container {
@@ -702,13 +677,14 @@ nav .logo h1 {
   .project_container {
     width: 100%;
   }
-}
-@media screen and (max-width: 482px) {
   .project_container .project {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+  }
+  .project_container .project img {
+    width: 90%;
   }
 }
 .contact-container {
@@ -744,7 +720,7 @@ nav .logo h1 {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  width: 100%;
+  width: 50%;
   min-height: 10rem;
   margin: 1rem;
   padding: 1rem;
@@ -758,7 +734,7 @@ nav .logo h1 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 40%;
+  width: 100%;
   margin-top: 1rem;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
@@ -821,14 +797,6 @@ nav .logo h1 {
   height: 35rem;
   position: relative;
 }
-.laxman ::-moz-selection {
-  color: none;
-  background: none;
-}
-.laxman ::selection {
-  color: none;
-  background: none;
-}
 .laxman .outline {
   border: 2px solid #F57300;
   width: 15rem;
@@ -875,14 +843,6 @@ nav .logo h1 {
   -webkit-animation-duration: 0.7s;
           animation-duration: 0.7s;
 }
-.info .bornIn ::-moz-selection {
-  color: none;
-  background: none;
-}
-.info .bornIn ::selection {
-  color: none;
-  background: none;
-}
 .info .bornIn .text {
   font-size: 1.5rem;
   margin-left: 1rem;
@@ -898,14 +858,6 @@ nav .logo h1 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-}
-.info .livesIn ::-moz-selection {
-  color: none;
-  background: none;
-}
-.info .livesIn ::selection {
-  color: none;
-  background: none;
 }
 .info .livesIn .text {
   font-size: 1.5rem;
@@ -927,6 +879,10 @@ nav .logo h1 {
   font-size: 1.5rem;
   margin-left: 1rem;
   text-align: center;
+}
+.info .email .text a {
+  text-decoration: none;
+  color: #000;
 }
 
 .fields {
@@ -1090,6 +1046,7 @@ nav .logo h1 {
   }
   .contact-container .social-links .links {
     width: 100%;
+    border: 1px solid red;
   }
   .contact-container .social-links .links a img {
     height: 4.5rem;

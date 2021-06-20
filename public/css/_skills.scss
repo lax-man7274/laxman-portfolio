@@ -126,16 +126,18 @@
         width: 100%;
     }
 }
-@media screen and(max-width:700) {
+@media screen and(max-width:700px) {
     .skills-section{
         .skill-known {
             display: grid;
             grid-template-columns:1fr;
-            grid-template-rows: auto;
+            // grid-template-rows: auto;
               grid-gap: 2rem;
         width: 100%;
         height: 80%;
         place-items: center;
+
+        width:100%;
     
         }
     }

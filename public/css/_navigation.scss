@@ -6,12 +6,6 @@ nav {
     align-items: center;
     width: 100%;
     cursor: default;
-    // border:1px solid red;
-
-    ::selection {
-        color: none;
-        background: none;
-    }
     .logo{
         flex:1;
         background: none;
