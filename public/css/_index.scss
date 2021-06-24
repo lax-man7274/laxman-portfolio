@@ -13,7 +13,7 @@
 
     &::before {
         content: '';
-        background-color: aquamarine;   
+        background-color: #007979;   
         width: 100rem;
         height: 100rem;
         position: absolute;
@@ -29,14 +29,12 @@
         // transform: translateY(50%);
         overflow: hidden;
         border-radius: 50%;
-        border: .5rem solid #F2994A;
-
+        border: .5rem solid #e86d00;
         img {
             width: 30rem;
             height: 30rem;
-            border: 1.5rem solid  #158b8b;
+            border: 1.5rem solid  #006e6e;
             border-radius: 50%;
-       
         }
 
     }
@@ -60,7 +58,7 @@
             
             h1{
                 font-size: 5rem;
-                color: #F2994A;
+                color: #e86d00;
                 display: inline-block;
                 font-weight: bold;
                 letter-spacing: 1.5px;

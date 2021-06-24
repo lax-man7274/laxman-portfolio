@@ -187,77 +187,7 @@
     }
 }
 
-.fields {
-    position: absolute;
-    bottom: 5%;
-    left: 15%;
-    display: flex;
-    flex-direction: row;
-    margin-top: 2rem;
-
-    form {
-
-        position: relative;
-
-        #name {
-            border: none;
-            background-color: #4AF2F2;
-            width: 20rem;
-            height: 3rem;
-            margin: 1rem;
-
-
-        }
-
-
-
-        #email {
-            border: none;
-            width: 25rem;
-            height: 3rem;
-            margin: 1rem;
-            background-color: #4AF2F2;
-        }
-
-        #message {
-            border: none;
-            width: 60rem;
-            height: 10rem;
-            margin: 1rem;
-            background-color: #4AF2F2;
-            padding: .5rem;
-
-        }
-
-        ::placeholder {
-            font-family: 'Comfortaa', cursive;
-            color: #000;
-        }
-
-        #submit {
-            padding: 1rem;
-            font-family: 'Comfortaa', cursive;
-            border: none;
-            width: 15rem;
-            height: 3rem;
-            margin: 1rem;
-            border-radius: 5%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            background: none;
-            background-color: #F57300;
-            cursor: pointer;
-
-            img {
-                width: 2rem;
-                height: 2rem;
-                margin-left: 1rem;
-            }
-
-        }
-    }
-}
+// 
 
 .copyright {
     text-align: center;
@@ -267,11 +197,7 @@
     }
 }
 
-// animations delay declerations
-// .animate__animated .animate__fadeInLeft{
-//     animation-duration: 5s;
-//     animation-delay: .5s;
-// }
+
 
 .currently-working{
     margin-top:3rem;
@@ -283,13 +209,13 @@
     align-items: center;
     padding:1rem;
     width:100vw;
-    background-color: #067777;
-    color: rgb(223, 223, 223);
+    background-color: #026868;
+    color: rgb(245, 245, 245);
 
     h1{
         font-size: 2rem;
 
-        color: rgb(223, 223, 223);
+        color: rgb(245, 245, 245);
     }
     .works{
         width:50%;
@@ -310,9 +236,9 @@
                 line-height: 2rem;
 
                 a{
-                    text-decoration: none;
+                    text-decoration: underline;
                     cursor: pointer;
-                    color: #ec984e;
+                    color: #f3f6ff;
                 }
             }
             i{
